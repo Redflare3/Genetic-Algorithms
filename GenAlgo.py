@@ -1,7 +1,6 @@
 import math
 import random
 
-# btw chris comment ny jgn di hapus, untuk presentasi nanti, sama emg di minta di soal
 PopulationSize = 50
 chromosome_length = 32
 MaxGen = 100            #Kriteria penghentian evolusi (loop)
