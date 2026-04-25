@@ -1,6 +1,7 @@
 import math
 import random
 
+# btw chris comment ny jgn di hapus, untuk presentasi nanti, sama emg di minta di soal
 PopulationSize = 50
 chromosome_length = 32
 MaxGen = 100            #Kriteria penghentian evolusi (loop)
@@ -94,7 +95,7 @@ def run():
         best_individual = min(population, key=lambda k: fitness_function(*decode_chromosome(k)))
         #key parameter dalam fungsi bawaan Python
         #ubah biner k menjadi angka desimal, lalu hitung fitnessnya
-        
+
         new_population.append(best_individual)
 
         while len(new_population) < PopulationSize:
@@ -102,20 +103,20 @@ def run():
             p2 = parent_selection(population)
 
             child1, child2 = crossover(p1, p2, CrossoverRate)
-
+            
             child1 = mutation(child1, MutationRate)
             child2 = mutation(child2, MutationRate)
 
             new_population.append(child1)
             if len(new_population) < PopulationSize:
                 new_population.append(child2)
-
+            #pastikan kita tidak melebihi ukuran populasi saat menambahkan anak kedua
         population = new_population
 
     best_chromosome = min(population, key=lambda k: fitness_function(*decode_chromosome(k)))
     x1, x2 = decode_chromosome(best_chromosome)
     min_value = fitness_function(x1, x2)
-
+    
     return best_chromosome, x1, x2, min_value
 
 if __name__ == "__main__":
