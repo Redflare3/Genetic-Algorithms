@@ -1,21 +1,3 @@
-Gemini
-Generate GitHub ReadMe from Python
-Conversation with Gemini
-turn this into ReadMe file for Github
-
-Your Markdown (README.md) file is ready:
-MD icon
- README 
-MD
-
-I have extracted all the details from the provided PDF report , including the group members' roles , the mathematical problem , the configurations of the genetic algorithm , and the results, and formatted them into a structured ReadMe file that you can directly push to your GitHub repository. Let me know if you need any further modifications!
-+4
-
-
-
-
-
-Gemini is AI and can make mistakes.
 
 # Optimasi Numerik menggunakan Algoritma Genetika
 
