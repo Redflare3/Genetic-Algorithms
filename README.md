@@ -1,12 +1,5 @@
 
 # Optimasi Numerik menggunakan Algoritma Genetika
-
-**Laporan Case Based Kecerdasan Buatan RPL**
-
-**Tim: The Sun and The Moon (Kelompok 7)**
-* **Muhammad Zaki (103022400141)** - Ukuran populasi, rancangan kromosom, cara dekode, pemilihan orang tua, operasi genetik
-* **Chris Cornelis Lukito (103022400075)** - Probabilitas operasi genetik, pergantian generasi
-
 ---
 
 ## 📌 Definisi Tugas dan Analisis Masalah
